@@ -1,0 +1,119 @@
+.navbar-container{
+    /* display: flex; */
+    justify-content: space-between;
+    margin: 6px 18px;
+    position: relative;
+  }
+.products-heading {
+    text-align: center;
+    margin: 40px 0;
+    color: #324d67;
+}
+.products-heading span {
+    font-size: 40px;
+    font-weight: 800;
+}
+.products-heading p {
+    font-size: 16px;
+    font-weight: 200;
+}
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 15px;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+}
+.product-card {
+    cursor: pointer;
+    color: #324d67;
+    transition: transform 0.5s ease; /* Move transition property here for smoother effect */
+    overflow: hidden; /* Ensure content doesn't overflow during scaling */
+  }
+  
+  .product-card:hover {
+    /* transform: scale(1.05); Increase the scale factor for a slight pop-up effect */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); Optional: Add a subtle box shadow for depth */
+    /* border-radius: 10%; */
+  }
+  
+.product-image {
+    border-radius: 15px;
+    background-color: #ebebeb;
+    transition: transform 0.8s ease;
+}
+.product-card:hover .product-image {
+    /* margin-left: 10px; */
+    transform: scale(1.03);
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); Optional: Add a subtle box shadow for depth */
+    border-radius: 10%;
+
+}
+.product-name {
+    font-weight: 500;
+}
+/* .product-card:hover .product-name {
+    margin-left: 10px;
+    margin-top: 10px;
+} */
+.product-price {
+    font-weight: 800;
+    margin-top: 6px;
+    color: black;
+}
+/* .product-card:hover .product-price {
+    margin-left: 13px;
+} */
+.footer-banner-container {
+    padding: 100px 40px;
+    background-color: #00afac;
+    border-radius: 15px;
+    position: relative;
+    height: 400px;
+    line-height: 1;
+    color: white;
+    width: 100%;
+    margin-top: 120px;
+}
+.banner-desc {
+    display: flex;
+    justify-content: space-between;
+}
+.banner-desc .left p {
+    margin: 18px;
+    color: white;
+}
+.banner-desc .left h3 {
+    font-weight: 900;
+    font-size: 80px;
+    margin-left: 25px;
+}
+.banner-desc .right p {
+    font-size: 18px;
+    color: white;
+}
+.banner-desc .right h3 {
+    font-weight: 800;
+    font-size: 60px;
+}
+.banner-desc button {
+    border-radius: 15px;
+    padding: 10px 16px;
+    background-color: white;
+    color: #00afac;
+    border: none;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footer-banner-image {
+    height: 594px;
+    position: absolute;
+    top: -35%;
+    left: 25%;
+    cursor: pointer;
+
+}
